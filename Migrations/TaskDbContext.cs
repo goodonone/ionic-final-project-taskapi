@@ -19,7 +19,7 @@ public class TaskDbContext : DbContext
         {
             entity.HasKey(e => e.TaskId);
             entity.Property(e => e.Title).IsRequired();
-            entity.Property(e => e.Completed);
+            entity.Property(e => e.Completed).HasDefaultValue(false);
         });
     }
 }
