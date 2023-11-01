@@ -2,7 +2,7 @@ using task_api.Models;
 using Microsoft.EntityFrameworkCore;
 using Task = task_api.Models.Task;
 
-namespace l10_rest.Migrations;
+namespace task_api.Migrations;
 
 public class TaskDbContext : DbContext
 {
@@ -19,7 +19,7 @@ public class TaskDbContext : DbContext
         {
             entity.HasKey(e => e.TaskId);
             entity.Property(e => e.Title).IsRequired();
-            entity.Property(e => e.Completed).IsRequired();
+            entity.Property(e => e.Completed);
         });
     }
 }
