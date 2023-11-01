@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/judeprashanth/The Prashanths Dropbox/Jude Prashanth/Mac (3)/Desktop/task-api/task-api.csproj": {}
+    "/Users/judeprashanth/The Prashanths Dropbox/Jude Prashanth/Mac (3)/Desktop/ionic-course/final-project/task-api/task-api.csproj": {}
   },
   "projects": {
-    "/Users/judeprashanth/The Prashanths Dropbox/Jude Prashanth/Mac (3)/Desktop/task-api/task-api.csproj": {
+    "/Users/judeprashanth/The Prashanths Dropbox/Jude Prashanth/Mac (3)/Desktop/ionic-course/final-project/task-api/task-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/judeprashanth/The Prashanths Dropbox/Jude Prashanth/Mac (3)/Desktop/task-api/task-api.csproj",
+        "projectUniqueName": "/Users/judeprashanth/The Prashanths Dropbox/Jude Prashanth/Mac (3)/Desktop/ionic-course/final-project/task-api/task-api.csproj",
         "projectName": "task-api",
-        "projectPath": "/Users/judeprashanth/The Prashanths Dropbox/Jude Prashanth/Mac (3)/Desktop/task-api/task-api.csproj",
+        "projectPath": "/Users/judeprashanth/The Prashanths Dropbox/Jude Prashanth/Mac (3)/Desktop/ionic-course/final-project/task-api/task-api.csproj",
         "packagesPath": "/Users/judeprashanth/.nuget/packages/",
-        "outputPath": "/Users/judeprashanth/The Prashanths Dropbox/Jude Prashanth/Mac (3)/Desktop/task-api/obj/",
+        "outputPath": "/Users/judeprashanth/The Prashanths Dropbox/Jude Prashanth/Mac (3)/Desktop/ionic-course/final-project/task-api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/judeprashanth/.nuget/NuGet/NuGet.Config"
