@@ -6,7 +6,7 @@ using Task = task_api.Models.Task;
 namespace task.Controllers;
 
 [ApiController]
-[Route("[controller]")]
+[Route("api/[controller]")]
 public class TaskController : ControllerBase
 {
     private readonly ILogger<TaskController> _logger;

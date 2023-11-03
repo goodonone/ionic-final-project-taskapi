@@ -20,6 +20,11 @@ public class TaskRepository : ITaskRepository
         return newTask;
     }
 
+    public object CreateTask(string? title)
+    {
+        throw new NotImplementedException();
+    }
+
     public void DeleteTaskById(int taskId)
     {
         var task = _context.Tasks.Find(taskId);
