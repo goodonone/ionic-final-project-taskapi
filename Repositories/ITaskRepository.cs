@@ -1,4 +1,3 @@
-using task_api.Models;
 using Task = task_api.Models.Task;
 
 namespace task_api.Repositories;
@@ -10,5 +9,5 @@ public interface ITaskRepository
     Task CreateTask(Task newTask);
     Task? UpdateTask(Task newtask);
     void DeleteTaskById(int taskId);
-    object CreateTask(string? title);
+    
 }

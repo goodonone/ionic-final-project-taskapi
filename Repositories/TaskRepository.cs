@@ -1,4 +1,3 @@
-using task_api.Models;
 using Task = task_api.Models.Task;
 using task_api.Migrations;
 
@@ -18,11 +17,6 @@ public class TaskRepository : ITaskRepository
         _context.Tasks.Add(newTask);
         _context.SaveChanges();
         return newTask;
-    }
-
-    public object CreateTask(string? title)
-    {
-        throw new NotImplementedException();
     }
 
     public void DeleteTaskById(int taskId)
